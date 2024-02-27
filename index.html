@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Boletim</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="./img/diplomado 1.png" alt="logo" />
+      <p>E E Escola zerada</p>
+    </header>
+    <div class="form">
+      <div class="input">
+        <h1>Cadastre 5 Alunos</h1>
+        <input type="text" id="input-nome" placeholder="Digite o nome" />
+        <input type="number" id="input-nota1" placeholder="Digite a 1º nota" />
+        <input type="number" id="input-nota2" placeholder="Digite a 2º nota" />
+        <input type="number" id="input-nota3" placeholder="Digite a 3º nota" />
+        <input type="number" id="input-nota4" placeholder="Digite a 4º nota" />
+        <button class="botao-cadastrar" onclick="adicionarAluno()">
+          Adicionar Aluno
+        </button>
+      </div>
+    </div>
+    <div id="criacaoTabela"></div>
+    <div class="musica">
+      <button id="playButton">Play</button>
+    </div>
+    <audio
+      id="audioPlayer"
+      src="./justin-bieber-confident-feat-chance-the-rapper.mp3"
+    ></audio>
+    <script src="js/script.js"></script>
+  </body>
+</html>
